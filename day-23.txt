@@ -1,0 +1,41 @@
+funvtions. php
+comand01:
+
+wp_enqueue_style(parameter1,parametre2)
+1.parameter1:
+	'handle'
+2.parameter2:
+	get_stylesheet_uri()-----------------scr=""eta anar jonno ager ta use hoy
+3.parameter3:
+	deps
+4.parameter4:
+	ver
+5.parameter5:
+	in_footer
+
+	
+comand02:
+	wp_enqueue_style('style_boot',get_template_directory_uri().'';)
+
+
+comand03:
+	wp_enqueue_script( 'script-name', get_template_directory_uri() .'', array(), '1.0.0', true );
+comand04:
+	add_theme_support('custom-logo')
+	
+
+
+
+
+
+index.php
+
+comand01:
+<head>
+<php wp_head(),?>
+</head>
+
+comand01:
+<?php wp_footer(); ?>
+comand 02:
+	<?php the_custom_logo();?>
